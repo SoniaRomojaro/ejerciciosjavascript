@@ -296,6 +296,7 @@ document.write("</br>");
 let exterioresnatacion= false;
 document.write("Se practica en exteriores: " +exterioresnatacion);
 document.write("</br>");
+
 let destino; 
 destino = "Madeira"; 
 document.write("Destino: " +destino);
@@ -316,35 +317,41 @@ let atraccionesturisticas;
 atraccionesturisticas = "cultura, gastronomía, etc."
 document.write("Atracciones turísticas: " + atraccionesturisticas);
 document.write("</br>");
-let destinocostero =true;
+let destinocostero= false;
+document.write("Es destino costero: " + destinocostero);
+document.write("</br>");
+let destinourbano = false; 
+document.write("Es destino urbano: " + destinocurbano);
+document.write("</br>");
+
+destino = "Malaga"; 
+document.write("Destino: " + destino);
+document.write("</br>");
+pais = "España"; 
+document.write("País: " + pais);
+document.write("</br>");
+clima = "Mediterráneo";
+document.write("Clima: " + clima);
+document.write("</br>");
+poblacion = 500000
+document.write("Poblacion: " + poblacion + " habitantes");
+document.write("</br>");
+atraccionesturisticas = "cultura, gastronomía, etc."
+document.write("Atracciones turísticas: " + atraccionesturisticas);
+document.write("</br>");
 document.write("Es destino costero: " + destinocostero);
 document.write("</br>");
 let destinocurbano =true;
 document.write("Es destino urbano: " + destinocurbano);
 document.write("</br>");
-let destinoMalaga; 
-destinoMalaga = "Malaga"; 
-document.write("Destino: " +destinoMalaga);
+
+
+
+//CONSTANTES
+// PARA VALORES QUE NO CAMBIAN
+const NUMERODEDIASSEMANA = 7;
+
+document.write("la semana tiene "+ NUMERODIASSEMANA + "dias");
 document.write("</br>");
-let paisMalaga; 
-paisMalaga = "España"; 
-document.write("País: " + paisMalaga);
-document.write("</br>");
-let climaMalaga; 
-climaMalaga = "Mediterráneo";
-document.write("Clima: " + climaMalaga);
-document.write("</br>");
-let poblacionMalaga
-poblacionMalaga = 500000
-document.write("Poblacion: " + poblacionMalaga + " habitantes");
-document.write("</br>");
-let atraccionesturisticasMMalaga;
-atraccionesturisticasMMalaga = "cultura, gastronomía, etc."
-document.write("Atracciones turísticas: " + atraccionesturisticasMMalaga);
-document.write("</br>");
-let destinocosteroMalaga =true;
-document.write("Es destino costero: " + destinocosteroMalaga);
-document.write("</br>");
-let destinocurbanoMalaga =true;
-document.write("Es destino urbano: " + destinocurbanoMalaga);
-document.write("</br>");
+
+
