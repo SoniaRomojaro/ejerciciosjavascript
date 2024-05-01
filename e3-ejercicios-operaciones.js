@@ -1,16 +1,11 @@
 //AQUI HACER LOS EJERCICIOS DEL TEMA 3 DE OPERACIONES
-let precioManzana = 2.5;
-let precioPera = 1.5
-let precioPlatano = 1.8; 
-let precioManzanapera;
+let apotemapentagono = 1;
+let ladopentagono = 6;
+let areapentagono; 
 
-precioManzanapera = precioManzana + precioPera;
+areapentagono = ((5 * ladopentagono)* apotemapentagono)/2
 
-document.write("Precio manzanas " + precioManzana + " euros por Kg");
-document.write("Precio peras " + precioPera + "euros por Kg");
-document.write("Precio manzanas y peras " + precioManzanapera + "euros"); 
-
-
+document.write("Área del pentágono es cinco veces la longitud de su lado multiplicado por su apotema dividido entre dos. Su lado es " + ladopentagono + " cm y la apotema es " + apotemapentagono + " cm. Por lo que el área es " + areapentagono + " cm" + "</br>");
 
 
 
