@@ -16,14 +16,3 @@ document.write("<br/>");
 
 
 
-
-let precioManzana = 2.5;
-let precioPera = 1.5; 
-let precioPlatano = 1.8;
-let precioPerasmanzanas;
-
-precioPerasmanzanas = precioPera + precioManzana;
-
-document.write("Precio de peras = " + precioPera);
-document.write("Precio de manzanas = " + precioManzana);
-document.write("Precio de peras y manzanas = " + precioPerasmanzanas);

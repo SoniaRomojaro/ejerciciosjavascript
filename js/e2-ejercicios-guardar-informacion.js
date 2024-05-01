@@ -371,3 +371,16 @@ document.write("Vivo en  " + cuidadVivo +"</br>");
 document.write("El día tiene " + NUMEROHORASDIA + " horas" + "</br>");
 document.write("La gasolina cuesta " + precioGasolina + " euros" + "</br>");
 document.write("He leído " + numeroLibros + " libros" + "</br>");
+
+
+let precioTomates = 2.8;
+let precioManzanas = 1.5;
+let precioTotal;
+
+precioTotal = precioTomates + precioManzanas;
+
+document.write("Sumar dos numeros: La suma del precio de los tomates " + precioTomates);
+document.write(" mas el precio de las manzanas " + precioManzanas);
+document.write(" es en total: " + precioTotal);
+document.write("<br/>");
+
