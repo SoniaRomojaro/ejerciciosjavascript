@@ -342,3 +342,32 @@ document.write("¿Le gusta la playa?: " + gustaPlayasegundo + "</br>");
 document.write("¿Le gusta la montaña?: " + gustaMontañasegundo + "</br>");
 document.write("¿Le gusta el chocolate?: " + gustaChocolatesegundo + "</br>");
 document.write("¿Tiene mascota?: " + tieneMascotasegundo + "</br>");
+
+
+
+document.write("EJERCICIOS DE CONSTANTES:</br>");
+const NUMEROMESESAÑO = 12;
+const  NUMERODEDIASSEMANADOS =7;
+let numeroHabitantescuidad;
+let edadCantante;
+const  ESTACIONESAÑO = 4;
+let cuidadVivo;
+const NUMEROHORASDIA = 24;
+let precioGasolina;
+let numeroLibros;
+
+numeroHabitantescuidad = 3000000;
+edadCantante = 40;
+cuidadVivo = "Madrid";
+precioGasolina = 1.75;
+numeroLibros = 50;
+
+document.write("El año tiene " + NUMEROMESESAÑO + " meses" + "</br>");
+document.write("La semana tiene " + NUMERODEDIASSEMANADOS + " días" + "</br>");
+document.write(" Número de habitantes de la cuidad: " + numeroHabitantescuidad + " habitantes" +"</br>");
+document.write(" Edad cantante favorito: " + edadCantante + " años" +"</br>");
+document.write("El año tiene " + ESTACIONESAÑO + " estaciones" +"</br>");
+document.write("Vivo en  " + cuidadVivo +"</br>");
+document.write("El día tiene " + NUMEROHORASDIA + " horas" + "</br>");
+document.write("La gasolina cuesta " + precioGasolina + " euros" + "</br>");
+document.write("He leído " + numeroLibros + " libros" + "</br>");
