@@ -285,3 +285,60 @@ document.write("</br>");
 
 document.write("Es destino urbano: " + destinoUrbano);
 document.write("</br>");
+
+
+
+
+//EJERCICIOS HECHOS POR SONIA
+let miNombre;
+let apellidosSegundo;
+let edadSegundo;
+let alturaDos;
+let ciudadSegundo;
+let gustaPlayasegundo;
+let gustaMontañasegundo;
+let gustaChocolatesegundo;
+let tieneMascotasegundo;
+
+miNombre ="Sonia";
+apellidosSegundo = "Sanchez";
+edadSegundo = 30;
+alturaDos =1.65;
+ciudadSegundo = "Madrid";
+gustaPlayasegundo = true;
+gustaMontañasegundo = true;
+gustaChocolatesegundo = false;
+tieneMascotasegundo = true;
+
+document.write("INFORMACION DE LA PERSONA:</br>");
+document.write("Mi nombre es: " + miNombre + "</br>");
+document.write("Apellidos: " + apellidosSegundo +"</br>");
+document.write("Edad: " + edadSegundo +"</br>");
+document.write("Altura: " + alturaDos + "</br>");
+document.write("Ciudad: " + ciudadSegundo + "</br>");
+document.write("¿Le gusta la playa?: " + gustaPlayasegundo + "</br>");
+document.write("¿Le gusta la montaña?: " + gustaMontañasegundo + "</br>");
+document.write("¿Le gusta el chocolate?: " + gustaChocolatesegundo + "</br>");
+document.write("¿Tiene mascota?: " + tieneMascotasegundo + "</br>");
+
+document.write("INFORMACION DE UN CONOCIDO:</br>");
+miNombre ="Pepe";
+apellidosSegundo = "Sanchez";
+edadSegundo = 35;
+alturaDos =1.70;
+ciudadSegundo = "Madrid";
+gustaPlayasegundo = false;
+gustaMontañasegundo = true;
+gustaChocolatesegundo = false;
+tieneMascotasegundo = false;
+
+document.write("Información de la persona:</br>");
+document.write("Nombre: " + miNombre + "</br>");
+document.write("Apellidos: " + apellidosSegundo +"</br>");
+document.write("Edad: " + edadSegundo +"</br>");
+document.write("Altura: " + alturaDos + "</br>");
+document.write("Ciudad: " + ciudadSegundo + "</br>");
+document.write("¿Le gusta la playa?: " + gustaPlayasegundo + "</br>");
+document.write("¿Le gusta la montaña?: " + gustaMontañasegundo + "</br>");
+document.write("¿Le gusta el chocolate?: " + gustaChocolatesegundo + "</br>");
+document.write("¿Tiene mascota?: " + tieneMascotasegundo + "</br>");
