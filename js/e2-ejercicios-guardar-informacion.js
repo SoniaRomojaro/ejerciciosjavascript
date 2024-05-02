@@ -345,7 +345,7 @@ document.write("¿Tiene mascota?: " + tieneMascotasegundo + "</br>");
 
 
 
-document.write("EJERCICIOS DE CONSTANTES:</br>");
+document.write("EJERCICIO 7 EJERCICIOS DE CONSTANTES:</br>");
 const NUMEROMESESAÑO = 12;
 const  NUMERODEDIASSEMANADOS =7;
 let numeroHabitantescuidad;

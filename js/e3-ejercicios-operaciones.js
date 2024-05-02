@@ -1,4 +1,4 @@
-//HACER LOS EJERCICIOS DE LAS OPERACIONES
+//HACER LOS EJERCICIOS DE LAS OPERACIONES hecho por SONIA
 document.write("EJERCICIOS DE OPERACIONES:</br>");
 let precioManzana = 2.5;
 let precioPera = 1.5
@@ -59,6 +59,7 @@ area = basecuadrado * alturacuadrado;
 
 document.write("Área del cuadrado es base por altura. La base es " + basecuadrado + " cm y la altura es " + alturacuadrado + " cm. Por lo que el área es " + area + " cm" + "</br>");
 
+
 let baserectangulo = 8;
 let alturarectangulo =6;
 let arearectangulo; 
@@ -66,6 +67,7 @@ let arearectangulo;
 arearectangulo = baserectangulo * alturarectangulo; 
 
 document.write("Área del rectángulo es base por altura. La base es " + baserectangulo + " cm y la altura es " + alturarectangulo + " cm. Por lo que el área es " + arearectangulo + " cm" + "</br>");
+
 
 
 let basetriangulo = 10;
