@@ -1,44 +1,44 @@
 //SUMAN DOS NUMEROS
 //Sumar el precio de tomates y manzanas
-let precioTomates = 2.8;
-let precioManzanas = 1.5;
+let precioTomates1 = 2.8;
+let precioManzanas1 = 1.5;
 let precioTotal;
 
-precioTotal = precioTomates + precioManzanas;
+precioTotal = precioTomates1 + precioManzanas1;
 
-document.write("Sumar dos numeros: La suma del precio de los tomates " + precioTomates);
-document.write(" mas el precio de las manzanas " + precioManzanas);
+document.write("Sumar dos numeros: La suma del precio de los tomates " + precioTomates1);
+document.write(" mas el precio de las manzanas " + precioManzanas1);
 document.write(" es en total: " + precioTotal);
 document.write("<br/>");
 
 //RESTAR DOS NUMERO
 //Restarle a los tomates el descuento
 let descuento = 1;
-let precioTomatesDescuento;
+let precioTomates1Descuento;
 
-precioTomatesDescuento = precioTomates - descuento;
-document.write("Restar dos numeros: La resta del precio de los tomates tomates " + precioTomates);
+precioTomates1Descuento = precioTomates1 - descuento;
+document.write("Restar dos numeros: La resta del precio de los tomates tomates " + precioTomates1);
 document.write(" menos el descuento " + descuento);
-document.write(" seria: " + precioTomatesDescuento);
+document.write(" seria: " + precioTomates1Descuento);
 document.write("<br/>");
 
 //MULTIPLICAR DOS NUMEROS
 //Calcular el precio de 5 kilos de manzanas.
-let kilosManzanas = 5;
+let kilosManzanas1 = 5;
 let precioMultiplicacion;
 
-precioMultiplicacion = kilosManzanas * precioManzanas;
-document.write("Multiplicar dos numeros: El precio total de " + kilosManzanas + " kilos de manzanas ");
-document.write(" a un precio de " + precioManzanas);
+precioMultiplicacion = kilosManzanas1 * precioManzanas1;
+document.write("Multiplicar dos numeros: El precio total de " + kilosManzanas1 + " kilos de manzanas ");
+document.write(" a un precio de " + precioManzanas1);
 document.write(" seria en total: " + precioMultiplicacion);
 document.write("<br/>");
 
 //DIVIDIR DOS NUMEROS
 //Calcular la mitad del precio de las manzanas.
 let mitad = 2;
-let mitadPrecio = precioManzanas / mitad;
+let mitadPrecio = precioManzanas1 / mitad;
 
-document.write("Dividir dos numeros: El resultado de dividir el precio de las manzanas " + precioManzanas );
+document.write("Dividir dos numeros: El resultado de dividir el precio de las manzanas " + precioManzanas1 );
 document.write(" entre " + mitad);
 document.write(" seria en total: " + mitadPrecio);
 document.write("<br/>");
