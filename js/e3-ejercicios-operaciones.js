@@ -1,28 +1,3 @@
-//HACER LOS EJERCICIOS DE LAS OPERACIONES hecho por SONIA
-let diagonal1rombo = 12;
-let diagonal2rombo = 16;
-let arearombo; 
-
-arearombo = (diagonal1rombo * diagonal2rombo)/2; 
-
-document.write("Área del rombo es la multiplicación de sus diagonales entre 2. La diagonal1 es " + diagonal1rombo + " cm y la diagonal2 es " + diagonal2rombo + " cm. Por lo que el área es " + arearombo + " cm" + "</br>");
-
-let baseparalelogramo = 7;
-let alturaparalelogramo = 9;
-let areaparalelogramo; 
-
-areaparalelogramo = baseparalelogramo * alturaparalelogramo
-
-document.write("Área del paralelogramo es base por altura. Su base es " + baseparalelogramo + " m y la altura es " + alturaparalelogramo + " m. Por lo que el área es " + areaparalelogramo + " m" + "</br>");
-
-
-let apotemapentagono = 1;
-let ladopentagono = 6;
-let areapentagono; 
-
-areapentagono = ((5 * ladopentagono)* apotemapentagono)/2
-
-document.write("Área del pentágono es cinco veces la longitud de su lado multiplicado por su apotema dividido entre dos. Su lado es " + ladopentagono + " cm y la apotema es " + apotemapentagono + " cm. Por lo que el área es " + areapentagono + " cm" + "</br>");
 
 //AQUI HACEIS LOS EJERCICIOS DEL TEMA 3 OPERACIONES
 let precioManzana = 2.5;
@@ -121,3 +96,30 @@ let areatrapecio;
 areatrapecio = alturatrapecio * ((basetrapecio1 +  basetrapecio2) / 2); 
 
 document.write("Área del trapecio es suma de las bases por su altura entre 2. La base1 es " + basetrapecio1+ " cm, la base2 es " + basetrapecio2 + " cm y la altura es " + alturatrapecio+ " cm. Por lo que el área es " + areatrapecio + " cm" + "</br>");
+
+
+
+let diagonal1rombo = 12;
+let diagonal2rombo = 16;
+let arearombo; 
+
+arearombo = (diagonal1rombo * diagonal2rombo)/2; 
+
+document.write("Área del rombo es la multiplicación de sus diagonales entre 2. La diagonal1 es " + diagonal1rombo + " cm y la diagonal2 es " + diagonal2rombo + " cm. Por lo que el área es " + arearombo + " cm" + "</br>");
+
+let baseparalelogramo = 7;
+let alturaparalelogramo = 9;
+let areaparalelogramo; 
+
+areaparalelogramo = baseparalelogramo * alturaparalelogramo
+
+document.write("Área del paralelogramo es base por altura. Su base es " + baseparalelogramo + " m y la altura es " + alturaparalelogramo + " m. Por lo que el área es " + areaparalelogramo + " m" + "</br>");
+
+
+let apotemapentagono = 1;
+let ladopentagono = 6;
+let areapentagono; 
+
+areapentagono = ((5 * ladopentagono)* apotemapentagono)/2
+
+document.write("Área del pentágono es cinco veces la longitud de su lado multiplicado por su apotema dividido entre dos. Su lado es " + ladopentagono + " cm y la apotema es " + apotemapentagono + " cm. Por lo que el área es " + areapentagono + " cm" + "</br>");
