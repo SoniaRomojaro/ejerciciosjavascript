@@ -72,3 +72,64 @@ let nombreEstudiante = "Juan";
 let nuevoMensajeBienvenida = mensajeBienvenida.replace("estudiante", nombreEstudiante);
 let ejemplo10 = document.getElementById("ejemplo10");
 ejemplo10.innerText = "Antes de reemplazar " + mensajeBienvenida + " despues de reemplazar " + nuevoMensajeBienvenida;
+
+
+
+
+
+
+//EJERCICIOS DE SONIA
+let parrafoBienvenida = document.getElementById("ejemplo11");
+parrafoBienvenida.innerText = "Hola que tal, bienvenida a QA";
+
+
+//letras//
+let contarLetras = "Hola que tal, bienvenida a QA";
+let totaletras = contarLetras.length;
+
+let ejemplo12 = document.getElementById("ejemplo12");
+ejemplo12.innerText = "la cadena "+ contarLetras + " tiene " + totaletras + " caracteres";
+
+
+
+//posición//
+let letraQposicion = contarLetras.length - 1;
+let ejemplo13 = document.getElementById("ejemplo13");
+ejemplo13.innerText = "la posicion de QA es "+ letraQposicion + " y " + totaletras + ", respectivamente" ;
+
+
+//primera letra//
+
+let primeraLetrafrase = contarLetras[0];
+let ejemplo14 = document.getElementById("ejemplo14");
+ejemplo14.innerText = "La primera letra de la frase " + contarLetras + " es " + primeraLetrafrase;
+
+
+//última letra"
+let ultimaLetrafrase = contarLetras[contarLetras.length - 1]; 
+let ejemplo15 = document.getElementById("ejemplo15");
+ejemplo15.innerText = "La última letra de la frase " + contarLetras + " es " + ultimaLetrafrase;
+
+
+//mayúscula minuscula//
+let fraseMayuscula = contarLetras.toUpperCase();
+let fraseMinuscula = contarLetras.toLowerCase();
+
+
+let ejemplo16 = document.getElementById("ejemplo16");
+ejemplo16.innerText = "La frase " + contarLetras + " mayusculas " + fraseMayuscula + " minusculas " + fraseMinuscula;
+
+
+
+
+//Sonia//
+let nombreSon = document.getElementById("ejemplo17");
+nombreSon.innerText = "Sonia";
+
+nombreSonmodificada = document.getElementById("ejemplo18");
+nombreSonmodificada.innerText = "Hola" + nombreSon.innerText;
+
+
+
+
+
