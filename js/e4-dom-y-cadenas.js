@@ -127,7 +127,7 @@ let nombreSon = document.getElementById("ejemplo17");
 nombreSon.innerText = "Sonia";
 
 nombreSonmodificada = document.getElementById("ejemplo18");
-nombreSonmodificada.innerText = "Hola" + nombreSon.innerText;
+nombreSonmodificada.innerText = "Hola " + nombreSon.innerText;
 
 
 
