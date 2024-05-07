@@ -80,12 +80,13 @@ ejemplo10.innerText = "Antes de reemplazar " + mensajeBienvenida + " despues de 
 
 //EJERCICIOS DE SONIA
 //EJERCICIO1//
+let contarLetras = "Hola que tal, bienvenida a QA";
 let parrafoBienvenida = document.getElementById("ejemplo11");
 parrafoBienvenida.innerText = "Hola que tal, bienvenida a QA";
 
 
 //longitud//
-let contarLetras = "Hola que tal, bienvenida a QA";
+
 let totaletras = contarLetras.length;
 
 let ejemplo12 = document.getElementById("ejemplo12");
@@ -127,8 +128,10 @@ nombreSon.innerText = "Sonia";
 nombreSonmodificada = document.getElementById("ejemplo18");
 nombreSonmodificada.innerText = "Hola " + nombreSon.innerText;
 
+
 //sin que tal//
-let nuevaFrase = contarLetras.replace("Hola que tal, bienvenida a QA" , "Hola, bienvenida a QA");
+let palabra2 = "";
+let nuevaFrase = contarLetras.replace("que tal, palabra2");
 let ejemplo19 = document.getElementById("ejemplo19");
 ejemplo19.innerText = "Esta es la nueva frase: " + nuevaFrase; 
 
@@ -140,6 +143,7 @@ let divContenidoEjercicios = document.getElementById("contenidoEjercicios");
 let nuevoTitulo1 = document.createElement("h3");
 nuevoTitulo1.innerText = "Sonia Ejemplo Crear Elementos desde Javascript";
 divContenidoEjercicios.appendChild(nuevoTitulo1);
+
 
 
 let nuevoParrafo1 = document.createElement("p");
