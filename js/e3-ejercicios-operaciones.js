@@ -116,10 +116,13 @@ areaparalelogramo = baseparalelogramo * alturaparalelogramo
 document.write("Área del paralelogramo es base por altura. Su base es " + baseparalelogramo + " m y la altura es " + alturaparalelogramo + " m. Por lo que el área es " + areaparalelogramo + " m" + "</br>");
 
 
-let apotemapentagono = 1;
+//solucio 1//
+let apotemapentagono = 4.13;
 let ladopentagono = 6;
 let areapentagono; 
+let perimetropentadono = (5 * ladopentagono);
 
-areapentagono = ((5 * ladopentagono)* apotemapentagono)/2
+areapentagono = (perimetropentadono* apotemapentagono)/2
 
 document.write("Área del pentágono es cinco veces la longitud de su lado multiplicado por su apotema dividido entre dos. Su lado es " + ladopentagono + " cm y la apotema es " + apotemapentagono + " cm. Por lo que el área es " + areapentagono + " cm" + "</br>");
+//soluciion2//
