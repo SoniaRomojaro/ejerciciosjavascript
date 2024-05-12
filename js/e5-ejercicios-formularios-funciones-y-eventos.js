@@ -51,3 +51,27 @@ function dividir(){
     //Usamos la funcion de imprimir que hemos declarado antse
     imprimir(mensajesonia,"funcionessoniadiv");
 }
+
+
+// EJERCICIO 3  MONEDA
+function cambioMoneda(){
+    let num1euros = document.getElementById("e11number").value;
+    cambiolibras = 0.86
+    cambiodolares = 1.08
+    let librastotales = num1euros * cambiolibras;
+    let dolarestotales = num1euros * cambiodolares; 
+    let mensaje = "La cantidad de euros " + num1euros + " equivale a  " + librastotales + " libras y a  " + dolarestotales + " dolares";
+  
+    imprimir(mensaje,"cambio");
+}
+
+// EJERCICIO 8 NOTA MEDIA
+function notaMedia(){
+    let nota1sonia = document.getElementById("e12number").value;
+    let nota2sonia = document.getElementById("e13number").value;
+    let nota3sonia= document.getElementById("e13number").value;
+    let notamedia = (nota1sonia + nota2sonia + nota3sonia)/3;
+    let mensajenotasonia = "La media de " + nota1sonia + " , " + nota2sonia + " y " + nota3sonia + " es " + notamedia;
+    imprimir(mensajenotasonia,"notas");
+    
+}
