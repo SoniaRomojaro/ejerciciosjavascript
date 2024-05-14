@@ -77,7 +77,7 @@ divEjercicios.appendChild(nuevoParrafo2);
 //presentacion//
 let contarLetras1 = "Hola me llamo Sonia";
 let totaletras1 = contarLetras1.length;
-let letraSposicion = contarLetras1.length - 5;
+let letraSposicion = contarLetras1.indexOf("Hola");
 let primeraLetrafrase1 = contarLetras1[0];
 let ultimaLetrafrase1 = contarLetras1[contarLetras1.length - 1]; 
 let fraseMayuscula1 = contarLetras1.toUpperCase();
