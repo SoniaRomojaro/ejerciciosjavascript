@@ -82,4 +82,44 @@ function calcularEdad(){
     let sec = min * SEGUNDOSHORA;
     let mensaje = " Si tienes " + edad + " años" + " habrás vivido " + dias + " días o " + min + " minutos " + " o " + sec + " segundos. "
     imprimir(mensaje, "ex6resultado");
+  }
+
+
+  //Informacion texto Sonia//
+  function Informaciontexto(){
+    let Informaciondeltexto = (document.getElementById("ejer7texto").value);
+    let textoMayusculas = Informaciondeltexto.toUpperCase();
+    let primeraLetraejer7 = Informaciondeltexto[0];
+    let ultimaLetraejer7 = Informaciondeltexto[Informaciondeltexto.length - 1];
+    let contarejercicio7 = Informaciondeltexto.length;
+    let mensaje = "texto en mayúsculas: " +  textoMayusculas + "; Primera letra: " + primeraLetraejer7 + "; Ultima letra: " + ultimaLetraejer7 + "; contar letras: " + contarejercicio7;
+    imprimir(mensaje, "ex7resultado");
+  }
+  // Nota media//
+  function calcularNotamedia(){
+  let Nota1 = parseInt(document.getElementById("ej9camisetas").value);
+  let Nota2 = parseInt(document.getElementById("ej8Nota2").value);
+  let Nota3 = parseInt(document.getElementById("ej8Nota3").value);
+  let notaMedia = (Nota1 + Nota2 + Nota3)/ 3;
+  let mensaje = "Nota1: " + Nota1 + "; Nota 2: " + Nota2 + "; Nota 3: " + Nota3 + "; Nota media es igual a: " + notaMedia;
+  imprimir(mensaje, "ex8resultado");
+}
+// Ejercicio 9 stock//
+function Stock(){
+    let camisetas = parseInt(document.getElementById("ej9camisetas").value);
+    let zapatos = parseInt(document.getElementById("ej9zapatos").value);
+    let sombreros = parseInt(document.getElementById("ej9sombreros").value);
+    let camisetasNombre = "Camisetas"; 
+    let zapatosNombre = "Zapatos";
+    let sombrerosNombre = "Sombreros";
+    let mensaje = camisetasNombre + camisetas + zapatosNombre + zapatos + sombrerosNombre + sombreros;
+    imprimir(mensaje, "ejercicio9");
+
+
+
+    
+    
+
+
+
 }

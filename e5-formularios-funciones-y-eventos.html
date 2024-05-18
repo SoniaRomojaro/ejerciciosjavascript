@@ -264,6 +264,76 @@
         </div>
         <p id="ex6resultado"></p>
 
+
+        <h3>Ejercicio 7: Formulario para mostrar Información de un texto</h3>
+
+        <div id="ejercicio7Formulario" class="was-validated">
+
+            <div class="mb-3">
+                <input type="text" id="ejer7texto" placeholder="Introduce tu texto" required minlength="10" maxlength="100"
+                    class="form-control">
+                <p class="valid-feedback">El texto introducido es correcto</p>
+                <p class="invalid-feedback">El campo texto es obligatorio y debe tener entre 10 y 100 caracteres</p>
+            </div>
+                 
+            <button type="button" class="btn btn-success"onclick="Informaciontexto()">Texto</button>
+            <p id="ex7resultado"></p>
+
+        </div>
+
+        <h3>Ejercicio 8: Formulario para Nota Media</h3>
+
+        <div id="ejercio8Formulario" class="was-validated">
+            <div class="mb-3">
+                <input type="number" id="ej8Nota1" placeholder="Introduce nota" required min="0" max="10"
+                    class="form-control">
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El valor es obligatorio y debe ser positivo </p>
+            </div>
+            <div class="mb-3">
+                <input type="number" id="ej8Nota2" placeholder="Introduce nota" required min="0" max="10"
+                    class="form-control">
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El valor es obligatorio y debe ser positivo </p>
+            </div>
+            <div class="mb-3">
+                <input type="number" id="ej8Nota3" placeholder="Introduce nota" required min="0" max="10"
+                    class="form-control">
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El valor es obligatorio y debe ser positivo </p>
+            </div>
+
+            <button type="button" class="btn btn-success" onclick="calcularNotamedia()">Nota media</button>
+        </div>
+        <p id="ex8resultado"></p>
+
+        <h3>Ejercicio 9: Camisetas, zapatos</h4>
+            <p>Selecciona en cada caso:</p>
+            <select id="ej9camisetas" class="form-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value=""></option>
+            </select>
+            <select id="ej9zapatos" class="form-select">
+                <option value="1"> 1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value=""></option>
+            </select>
+            <select id="ej9sombreros" class="form-select">
+                <option value="1"> 1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value=""></option>
+            </select>
+            <button type="button" class="btn btn-success" onclick="Stock()">Stock de productos</button>
+            <p id="ejercicio9"></p>
+
+
+
+
+
     </div>
     <script src="js/e5-formularios-funciones-y-eventos.js"></script>
     <script src="js/e5-ejercicios-formularios-funciones-y-eventos.js"></script>
