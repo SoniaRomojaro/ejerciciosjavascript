@@ -148,7 +148,7 @@
                 <p class="valid-feedback">La fecha es correcta</p>
                 <p class="invalid-feedback">El campo es obligatorio. El año debe estar entre 1900 y 2024</p>
             </div>
-            
+
             <button class="btn btn-success" onclick="wellcome()">Enter</button>
         </div>
         <p id="respuesta1"></p>
@@ -160,27 +160,111 @@
                 <p class="valid-feedback">Campo numérico es correcto</p>
                 <p class="invalid-feedback">El campo número es obligatorio.</p>
             </div>
-           
+
             <div class="mb-3">
                 <input type="number" id="numero2" placeholder="Segundo número" required class="form-control">
                 <p class="valid-feedback">Campo numérico es correcto</p>
                 <p class="invalid-feedback">El campo número es obligatorio y debe tener dos carácteres obligatorios</p>
             </div>
             <button type="button" onclick="calcularOperaciones()" class="btn btn-primary">Calcular</button>
-            
+
         </div>
         <p id="e2resultadOperaciones"></p>
 
-        <h3>Ejercicio 3: Crea un formulario para convertir monedas. El usuario debe introducir una catidad en euros.</h3>
+        <h3>Ejercicio 3: Crea un formulario para convertir monedas. El usuario debe introducir una catidad en euros.
+        </h3>
         <div id="ejemplo9formulario" class="was-validated">
             <div class="mb-3">
-                <input type="number" id="e11number" placeholder="Introduce euros a convertir" required min="0" step="0.001" class="form-control">
+                <input type="number" id="e11number" placeholder="Introduce euros a convertir" required min="0"
+                    step="0.001" class="form-control">
                 <p class="valid-feedback">El numero es correcto</p>
-                <p class="invalid-feedback">El campo numero es obligatorio required, y debe tener un valor min de 0</p>      
+                <p class="invalid-feedback">El campo numero es obligatorio required, y debe tener un valor min de 0</p>
             </div>
             <button type="button" class="btn btn-success" onclick="cambioMoneda()">Cambio Moneda</button>
         </div>
         <p id="cambio"></p>
+
+        <h3>Ejercicio 4: Formulario para calcular precio total de un producto. </h3>
+        <form id="formularioProducto" class="was-validated">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="nombreProducto" name="nombreProducto" required minlength="3"
+                    maxlength="20" placeholder="Introduce el nombre del producto">
+                <p class="valid-feedback">El nombre es correcto</p>
+                <p class="invalid-feedback">El nombre del producto debe tener entre 3 y 20 caracteres.</p>
+            </div>
+
+            <div class="mb-3">
+                <input type="number" step="0.01" class="form-control" id="precioProducto" name="precioProducto" required
+                    min="0" placeholder="Introduce el precio del producto">
+                <p class="invalid-feedback">
+                    El precio no puede ser negativo.
+                </p>
+                <p class="valid-feedback">
+                    El precio es correcto
+                </p>
+            </div>
+
+            <div class="mb-3">
+                <input type="number" class="form-control" id="cantidadProducto" name="cantidadProducto" required min="1"
+                    placeholder="Introduce una cantidad">
+                <p class="invalid-feedback">
+                    La cantidad no puede ser negativa.
+                </p>
+                <p class="valid-feedback">
+                    La cantidad es correcta.
+                </p>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="precioTotal()">Calcular</button>
+        </form>
+        <p id="precioTotal"></p>
+
+
+        <h3>Ejercicio 5: Formulario para elegir la talla y el color de una camiseta.  </h3>
+        
+        <form id="ejercicio5Formularios" class="was-validated">
+            
+            <div class="mb-3">
+                <label for="eje5TallaCamiseta">Talla Camiseta</label>
+                <select id="eje5TallaCamiseta" class="form-select" style="max-width: 150px;" required>
+                    <option value="xs">XS</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="eje5ColorCamiseta">Color Camiseta</label>
+                <select id="eje5ColorCamiseta" class="form-select" style="max-width: 150px;" required>
+                    <option value="blanco">Blanco</option>
+                    <option value="amarillo">Amarillo</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                    <option value="negro">Negro</option>
+                </select>
+            </div>
+            <button type="button" id="eje5Boton" class="btn btn-primary" onclick="datosCamiseta()">Datos Camiseta</button>
+            
+        </form>
+        <p id="eje5FormulariosResultado"></p>
+        
+        <h3>Ejercicio 6: Formulario para mostrar la edad en dias, horas y minutos</h3>
+
+        <div id="ejercio6Formulario" class="was-validated">
+            <div class="mb-3">
+                <input type="number" id="ej46Edad" placeholder="Introduce tu edad" required min="1"
+                    class="form-control">
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">La edad es obligatoria y debe ser positiva </p>
+            </div>
+            <button type="button" class="btn btn-success" onclick="calcularEdad()">Edad</button>
+        </div>
+        <p id="ex6resultado"></p>
+
+    </div>
     <script src="js/e5-formularios-funciones-y-eventos.js"></script>
     <script src="js/e5-ejercicios-formularios-funciones-y-eventos.js"></script>
 </body>

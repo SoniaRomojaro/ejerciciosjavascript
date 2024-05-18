@@ -32,3 +32,54 @@ function cambioMoneda(){
   
     imprimir(mensaje,"cambio");
 }
+
+/*
+Crea un formulario para calcular precio total de un producto. 
+El usuario debe introducir el nombre del producto, el precio y la cantidad. Agrega validación Boostrap. Todos los campos son obligatorios. El nombre debe tener entre 3 y 20 caracteres. El precio no puede ser negativo. La cantidad no puede ser negativa. 
+Agrega un boton que al hacer click llame a una función que muestre un mensaje con el nombre del producto, su cantidad, su precio y el precio total.
+*/
+function precioTotal(){
+    let nombreProducto = document.getElementById("nombreProducto").value;
+    let precioProducto = document.getElementById("precioProducto").value;
+    let cantidadProducto = document.getElementById("cantidadProducto").value;
+
+    let resultado = cantidadProducto * precioProducto;
+    let mensaje = "Producto elegido:" + nombreProducto + " Precio: " + precioProducto + " cantidad: " + cantidadProducto + " tiene un precio total de " + resultado;
+
+   imprimir(mensaje,"precioTotal");
+}
+
+/*
+Crea un formulario para elegir la talla y el color de una camiseta. 
+El usuario debe elegir de un select el color entre 5 colores posibles, y la talla de la XS a la XXL. Agrega validación Boostrap. Todos los campos son obligatorios. 
+Agrega un boton que al hacer click llame a una función que muestre un mensaje con la talla y el color de la camiseta elegidos.
+
+*/
+
+function datosCamiseta() {
+    let tallaCamiseta = document.getElementById("eje5TallaCamiseta").value;
+    let colorCamiseta = document.getElementById("eje5ColorCamiseta").value;
+  
+    let mensaje = "RESULTADO\nLa camiseta es de talla " + tallaCamiseta + " y de color " + colorCamiseta;
+    imprimir(mensaje,"eje5FormulariosResultado");
+
+}
+
+/*
+Crea un formulario para introducir la edad del usuario.
+La edad debe ser un numero positivo y es obligatorio. Agrega validación Boostrap.
+Agrega un boton que al hacer click llame a una función que muestre un mensaje con la edad en dias, la edad en minutos y la edad en segundos.
+
+*/
+function calcularEdad(){
+    let edad = parseInt(document.getElementById("ej46Edad").value);
+    const DIASANYO = 365;
+    const HORASDIA = 24;
+    const MINUTOSHORA = 60;
+    const SEGUNDOSHORA = 60;
+    let dias = edad * DIASANYO;
+    let min = dias * HORASDIA *  MINUTOSHORA;
+    let sec = min * SEGUNDOSHORA;
+    let mensaje = " Si tienes " + edad + " años" + " habrás vivido " + dias + " días o " + min + " minutos " + " o " + sec + " segundos. "
+    imprimir(mensaje, "ex6resultado");
+}
