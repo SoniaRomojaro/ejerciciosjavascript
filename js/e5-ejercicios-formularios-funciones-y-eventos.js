@@ -97,7 +97,7 @@ function calcularEdad(){
   }
   // Nota media//
   function calcularNotamedia(){
-  let Nota1 = parseInt(document.getElementById("ej9camisetas").value);
+  let Nota1 = parseInt(document.getElementById("ej8Nota1").value);
   let Nota2 = parseInt(document.getElementById("ej8Nota2").value);
   let Nota3 = parseInt(document.getElementById("ej8Nota3").value);
   let notaMedia = (Nota1 + Nota2 + Nota3)/ 3;
@@ -114,12 +114,12 @@ function Stock(){
     let sombrerosNombre = "Sombreros";
     let mensaje = camisetasNombre + camisetas + zapatosNombre + zapatos + sombrerosNombre + sombreros;
     imprimir(mensaje, "ejercicio9");
-
-
-
-    
-    
-
-
-
+   
 }
+
+
+    
+    
+
+
+

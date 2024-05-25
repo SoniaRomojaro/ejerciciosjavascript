@@ -267,11 +267,10 @@
 
         <h3>Ejercicio 7: Formulario para mostrar Información de un texto</h3>
 
-        <div id="ejercicio7Formulario" class="was-validated">
+        <form id="ejercicio7Formulario" class="was-validated">
 
             <div class="mb-3">
-                <input type="text" id="ejer7texto" placeholder="Introduce tu texto" required minlength="10" maxlength="100"
-                    class="form-control">
+                <textarea type="text" class="form-control" id="ejer7texto" placeholder="Introduce tu texto" required minlength="10" maxlength="100"></textarea>
                 <p class="valid-feedback">El texto introducido es correcto</p>
                 <p class="invalid-feedback">El campo texto es obligatorio y debe tener entre 10 y 100 caracteres</p>
             </div>
@@ -279,11 +278,11 @@
             <button type="button" class="btn btn-success"onclick="Informaciontexto()">Texto</button>
             <p id="ex7resultado"></p>
 
-        </div>
+        </form>
 
         <h3>Ejercicio 8: Formulario para Nota Media</h3>
 
-        <div id="ejercio8Formulario" class="was-validated">
+        <form id="ejercio8Formulario" class="was-validated">
             <div class="mb-3">
                 <input type="number" id="ej8Nota1" placeholder="Introduce nota" required min="0" max="10"
                     class="form-control">
@@ -304,7 +303,7 @@
             </div>
 
             <button type="button" class="btn btn-success" onclick="calcularNotamedia()">Nota media</button>
-        </div>
+        </form>
         <p id="ex8resultado"></p>
 
         <h3>Ejercicio 9: Camisetas, zapatos</h4>
