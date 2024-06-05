@@ -83,5 +83,5 @@ function verPosicionElemento() {
     }else {
         mensaje = "El elemento " + elemento + " esta en la posicion con indice " + posicionElemento;
     }
-    imprimir(mensaje,"mayorlista");
+    imprimir(mensaje,"e8resultado");
 }
