@@ -48,3 +48,73 @@ function eleccionPalabra() {
     }
     imprimir(mensaje, "e3resultado");
 }
+
+
+
+
+//lista nombres
+
+    
+
+
+let listaNombres1 = ["Maria", "ana", "Juan", "PEDRO", "Pepe"];
+
+function mostrarListaMinusculas1(){
+   
+    let longitud = listaNombres1.length;
+    let mensaje = "";
+
+    for(let i=0; i<longitud;i++){
+        
+            listaNombres1[i] = listaNombres1[i].toUpperCase();
+      
+                     
+    }
+
+    mensaje = "La lista en mayusculas es " + listaNombres1;
+
+    imprimir(mensaje,"e13solucion");
+
+}
+
+
+function ponerNombre () {
+    let nombre = document.getElementById("ej5palabra").value;
+    listaNombres1.push(nombre);
+    mensaje = "La lista es" + listaNombres1;
+    imprimir(mensaje,"ejercicio5solucion");
+
+}
+
+   
+function mostrarListaMayusculas(){
+   
+    let longitud = listaNombres1.length;
+    let mensaje = "";
+
+    for(let i=0; i<longitud;i++){
+        
+            listaNombres1[i] = listaNombres1[i].toUpperCase();
+                          
+    }
+
+    mensaje = "La lista en mayusculas es " + listaNombres1;
+
+    imprimir(mensaje,"e14solucion");
+
+}
+
+
+function mostrarLetraA(){
+   
+    let longitud = listaNombres1.length;
+    let mensaje = "";
+
+    for(let i=0; i<longitud;i++){
+        
+    
+     if (listaNombres1[i]==='A')          
+    imprimir(mensaje, "e15solucion");
+}
+ 
+}
