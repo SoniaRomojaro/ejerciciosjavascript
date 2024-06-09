@@ -56,7 +56,6 @@ function imprimirListaMascotas () {
     imprimir(mensaje,"e5objetos");
 }
 
-
 //agregar una nueva mascota a la lista
 function agregarNuevaMascota() {
     let miMascota = {};
@@ -68,3 +67,6 @@ function agregarNuevaMascota() {
     imprimirListaMascotas();
 
 }
+
+
+

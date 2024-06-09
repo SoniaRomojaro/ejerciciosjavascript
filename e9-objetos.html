@@ -32,13 +32,15 @@
                 <option value="ciudadesDondeHaVivido">Ciudades donde ha vivido</option>
             </select>
         </div>
-        <button type="button" class="btn btn-success" onclick="mostrarPropiedadMascota()">Mostrar Info seleccionada de la mascota</button>
+        <button type="button" class="btn btn-success" onclick="mostrarPropiedadMascota()">Mostrar Info seleccionada de
+            la mascota</button>
         <p id="e2objetos"></p>
 
         <h3>Ejemplo 3: Cambiar propiedades de un objeto. Cambiar nombre a la mascota</h3>
         <form id="ejemplo3objetos" class="was-validated">
             <div class="mb-3">
-                <input type="text" id="e3nombremascota" placeholder="Introduce el nuevo nombre de la mascota" required class="form-control">
+                <input type="text" id="e3nombremascota" placeholder="Introduce el nuevo nombre de la mascota" required
+                    class="form-control">
                 <p class="valid-feedback">correcto</p>
                 <p class="invalid-feedback">El valor nombre es obligatorio</p>
             </div>
@@ -76,13 +78,52 @@
         </form>
         <p id="e5objetos"></p>
 
+
+  
+    <h3>Ejercicio 1 Viaje</h3>
+    <button type="button" class="btn btn-success" onclick="mostrarViaje()">Mostrar Viaje</button>
+    <p id="e1viaje"></p>
+   
+    <h3>Ejemplo 2: Cambiar propiedades del viaje</h3>
+            <form class="was-validated">
+                <div class="mb-3">
+                <label for="viajecito">qué quieres cambiar:</label>
+                <select id="propiedadViaje" class="form-select" style="max-width: 150px;">
+                    <option value="destino">destino</option>
+                    <option value="precio">precio</option>
+                    <option value="duracion">duracion</option>
+                    <option value="cuidades">cuidades</option>
+                </select>
+            
+                 </div>
+            </form>
+       
+            <form id="viaje2" class="was-validated">
+                <div class="mb-3">
+                    <input type="text" id="nuevoValor" placeholder="nuevo valor" required>
+                    <p class="valid-feedback">correcto</p>
+                    <p class="invalid-feedback">El valor es obligatorio</p>
+                </div>
+                <button type="button" class="btn btn-success" onclick="cambiarpropiedadViaje()">Poner propiedad</button>
+            </form>
+
+            <h3>Ejemplo 3: Descripcion viaje</h3>
+                 
+            <form id="descricioviaje" class="was-validated">
+                <div class="mb-3">
+                    <input type="text" id="descripcionvia" placeholder="nuevo valor" required>
+                    <p class="valid-feedback">correcto</p>
+                    <p class="invalid-feedback">El valor es obligatorio</p>
+                </div>
+                <button type="button" class="btn btn-success" onclick="descripcionViaje()">Descripcion viaje</button>
+            </form>
+
+  
+
     </div>
 
-
-
     <script src="js/e9-objetos.js"></script>
+    <script src="js/e9-ejercicios-objetos.js"></script>
 </body>
 
 </html>
-
-
