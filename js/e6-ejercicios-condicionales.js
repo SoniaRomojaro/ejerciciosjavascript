@@ -383,31 +383,39 @@ function mostrarPrecioCoche() {
 
 }
 
- //Ejercicio 10
+/**
+ * 10. Crea un programa para mostrar el resultado final.
+1. Agrega un nuevo campo para que el usuario introduzca un numero del 1 al 10. Este campo es obligatorio.
+2. Agrega un boton adivinar.
+- El usuario tendra 3 intentos.
+ - Si el numero introducido es igual al ganador (el ganador sera el numero 3), mostrara un mensaje diciendo ha ganado.
+- Si el numero introducido no es igual al ganador, mostrara un mensaje diciendo ha perdido, vuelva a intentarlo, y restara uno al numero de intentos.
+- Si el numero de intentos es igual a 0, mostrara un mensaje diciendo, lo siento no puede jugar mas le quedan 0 intentos.
+ */
 
-function Adivinar() {
-    let numero10 = parseInt(document.getElementById("ejer10numeroresultado").value);
+let intentos = 3;
+
+function adivinar() {
+    let numeroElegido = parseInt(document.getElementById("ejer10numero").value);
     let numeroGanador = 3;
-    let numeroIntentos = 3;
-    let fin;
     let mensaje = "";
 
- 
-    if (numero10 === numeroGanador) {
-        mensaje = "Ha ganado";
-    }
-    else {
-        numeroIntentos-1;
-        mensaje = "Ha perdido, vuelva a intentarlo.";
-        if (numeroIntentos = 0){
-            mensaje = "No puede jugar más le quedan 0 intentos";
+    if (intentos > 0) {
+
+        if (numeroElegido === numeroGanador) {
+            mensaje = "Has ganado!";
+        }
+        else {
+            intentos--; // --: Es el operador de decremento, que reduce el valor de la variable a su izquierda en 1.
+            mensaje = "Ha perdido, vuelve a intentarlo, te quedan: " + intentos + " intentos.";
+
+        }
+
     }
 
+    else {
+        mensaje = "Ha perdido, no le quedan mas intentos";
     }
 
     imprimir(mensaje, "ejer10resultado");
-    
-   
-
 }
-

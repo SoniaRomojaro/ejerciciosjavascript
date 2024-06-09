@@ -386,27 +386,19 @@
 
         <p id="ej9resultado"></p>
 
+    <h3>Ejercicio 10: Adivinar un numero</h3>
+    <form id="ejer10" class="was-validated">
+        <div class="mb-3">
+            <label for="adivina">Adivina adivinanza</label>
+            <input type="number" id="ejer10numero" class="form-control" required min="1" max="10"
+                placeholder="Escribe un número">
+            <div class="valid-feedback">Correcto</div>
+            <div class="invalid-feedback">Debes seleccionar un número del 1 al 10.</div>
+        </div>
+        <button type="button" class="btn btn-success" onclick="adivinar()">Adivinar</button>
 
-        <h3>Ejercicio 10: Programa resultado final</h3>
-        
-        <form id="ejer10numero" class="was-validated">
-            
-            <div class="mb-3">
-                <input type="number" id="ejer10numeroresultado" class="form-control" required min="1" max ="10"
-                    placeholder="Introduce número">
-                <div class="valid-feedback">Correcto</div>
-                <div class="invalid-feedback">Introduce número del 1 al 10</div>
-            </div>
-            <button type="button" class="btn btn-success" onclick="Adivinar()">Adivinar</button>
-        </form>
-        <p id="ejer10resultado"></p>
-
-
-    
-       
-
-
-
+    </form>
+    <p id="ejer10resultado"></p>
 
     </div>
 
