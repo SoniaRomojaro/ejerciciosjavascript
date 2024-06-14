@@ -78,15 +78,16 @@
         </form>
         <p id="e5objetos"></p>
 
+    </div>
 
-  
-    <h3>Ejercicio 1 Viaje</h3>
-    <button type="button" class="btn btn-success" onclick="mostrarViaje()">Mostrar Viaje</button>
-    <p id="e1viaje"></p>
-   
-    <h3>Ejemplo 2: Cambiar propiedades del viaje</h3>
-            <form class="was-validated">
-                <div class="mb-3">
+    <div id="ejerciciosobjetos" class="container mt-5">
+        <h3>Ejercicio 1</h3>
+        <button type="button" class="btn btn-success" onclick="mostrarViaje()">Mostrar Viaje</button>
+        <p id="e1viaje"></p>
+
+        <h3>Ejercicio 2: Cambiar propiedades del viaje</h3>
+        <form class="was-validated">
+            <div class="mb-3">
                 <label for="viajecito">qué quieres cambiar:</label>
                 <select id="propiedadViaje" class="form-select" style="max-width: 150px;">
                     <option value="destino">destino</option>
@@ -94,33 +95,64 @@
                     <option value="duracion">duracion</option>
                     <option value="cuidades">cuidades</option>
                 </select>
-            
-                 </div>
-            </form>
-       
-            <form id="viaje2" class="was-validated">
-                <div class="mb-3">
-                    <input type="text" id="nuevoValor" placeholder="nuevo valor" required>
-                    <p class="valid-feedback">correcto</p>
-                    <p class="invalid-feedback">El valor es obligatorio</p>
-                </div>
-                <button type="button" class="btn btn-success" onclick="cambiarpropiedadViaje()">Poner propiedad</button>
-            </form>
 
-            <h3>Ejemplo 3: Descripcion viaje</h3>
-                 
-            <form id="descricioviaje" class="was-validated">
-                <div class="mb-3">
-                    <input type="text" id="descripcionvia" placeholder="nuevo valor" required>
-                    <p class="valid-feedback">correcto</p>
-                    <p class="invalid-feedback">El valor es obligatorio</p>
-                </div>
-                <button type="button" class="btn btn-success" onclick="descripcionViaje()">Descripcion viaje</button>
-            </form>
+            </div>
+            <div class="mb-3">
+                <input type="text" id="nuevoValor" placeholder="nuevo valor" required>
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El valor es obligatorio</p>
+            </div>
+            <button type="button" class="btn btn-success" onclick="cambiarpropiedadViaje()">Poner propiedad</button>
+        </form>
 
-  
+        <h3>Ejercicio 3: Agregar descripcion al viaje</h3>
+        <form class="was-validated">
+            <div class="mb-3">
+                <input type="text" id="descripcion" class="form-control"
+                    placeholder="Introduce la descripcion del viaje" required>
+            </div>
+            <button type="button" class="btn btn-success" onclick="agregarDescripcion()">Agregar Descripcion</button>
+        </form>
+        <p id="resultadoDescripcion"></p>
+        <h3>Ejercicio 4: Agregar viajeros de un viaje</h3>
 
+        <form id="agregarViajeroForm" class="was-validated">
+            <div class="mb-3">
+                <label for="nombreViajero" class="form-label">Nombre del Viajero:</label>
+                <input type="text" id="e4nombreViajero" class="form-control" required>
+                <div class="invalid-feedback">Por favor, ingrese el nombre del viajero.</div>
+            </div>
+            <div class="mb-3">
+                <label for="tipoViajero" class="form-label">Tipo:</label>
+                <select id="e4tipoViajero" class="form-select" required>
+                    <option value="">Seleccione el tipo</option>
+                    <option value="adulto">Adulto</option>
+                    <option value="niño">Niño</option>
+                </select>
+                <div class="invalid-feedback">Por favor, seleccione el tipo de viajero.</div>
+            </div>
+            <div class="mb-3">
+                <label for="descuentoViajero" class="form-label">Descuento:</label>
+                <select id="e4descuentoViajero" class="form-select" required>
+                    <option value="">Seleccione el descuento</option>
+                    <option value="ninguno">Sin descuento</option>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="jubilado">Jubilado</option>
+                </select>
+                <div class="invalid-feedback">Por favor, seleccione un descuento.</div>
+            </div>
+            <button type="button" class="btn btn-success" onclick="agregarViajero()">Agregar Viajero</button>
+        </form>
+        <p id="ejer4resultadoviajeros"></p>
+
+        <h3>Ejercicio 5: Mostrar precio viaje para cada viajero</h3>
+        <button type="button" class="btn btn-success" onclick="mostrarPrecio()">Mostrar precio por viajero</button>
+        <h3>Ejercicio 6: Mostrar precio total del viaje (suma de todos los viajeros)</h3>
+        <button type="button" class="btn btn-success" onclick="precioTotal()">Mostrar precio viaje total</button>
+        <p id="ej5preciototal"></p>
     </div>
+
+
 
     <script src="js/e9-objetos.js"></script>
     <script src="js/e9-ejercicios-objetos.js"></script>
